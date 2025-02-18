@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Educativo</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/html/menu.html">
+
+    <link rel="icon" href="/images/logo.jpg">
+</head>
+<body>
+    <header>
+        <img src="/images/logo.jpg" alt="">
+        <h1 style="color: white;">¡BIENVENIDO!</h1>
+     <h1 style="color: white;">Institucion Educativa Millan Vargas </h1>
+        <nav class="barralateral">
+            <ul>
+                <li> <img style="width: 50%;"  src="/images/logo.jpg"   alt=""></li>
+                
+            </ul>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about.html">Sobre Nosotros</a></li>
+                <li><a href="mision-vision.html">Misión y Visión</a></li>
+                <li><a href="staff.html">Docentes y Personal</a></li></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="fondoprin">
+            <div class="carrusel">
+                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+
+            <div class="carrusel-images">
+                <img src="/images/434060484_10221133285240580_1682876134517275786_n.jpg" class="active"/>
+                <img src="/images/434121709_10221132930591714_1467934155710438050_n.jpg" alt="">
+                <img src="/images/475770688_1143578793974337_2633095210984406646_n.jpg" alt="">
+                <img src="/images/2.d5596de2-f984-42e3-a757-b6bf575f07ca-1536x1156.jpg" alt="">
+                <img src="/images/433767051_10221133297400884_4057133527464357637_n.jpg" alt="">
+
+
+            </div>
+                <button class="next" onclick="moveSlide(1)">&#10095;</button>
+            </div>
+            <div class="description-text">
+
+                <h1>Bienvenidos a la Institucion Educativa Millan Vargas</h1>
+                <p>Formando generaciones con excelencia academica y valores</p>
+
+                <a href="#" class="btn">Ver oferta academica</a>
+
+
+            </div>
+        </section>
+        <section class="latest-updates">
+            <h1>Últimas Novedades</h1>
+        
+            <article class="news-item">
+                <h2>Nueva Oferta Educativa</h2>
+                <p>Estamos emocionados de anunciar la apertura de nuevos cursos para el próximo semestre. ¡Inscríbete ahora!</p>
+            </article>
+        
+            <article class="news-item">
+                <h2>Eventos Próximos</h2>
+                <p>No te pierdas nuestro próximo evento de puertas abiertas el 15 de marzo. ¡Te esperamos!</p>
+            </article>
+        
+            <article class="news-item">
+                <h2>Proyecto de Robótica Escolar</h2>
+                <p>Los estudiantes de grado 10º y 11º han desarrollado un innovador proyecto de robótica educativa que participará en un concurso regional.</p>
+            </article>
+        
+            <article class="news-item">
+                <h2>Nuevo Convenio Universitario</h2>
+                <p>Nos complace anunciar un convenio con la Universidad Nacional para ofrecer becas a nuestros estudiantes destacados.</p>
+            </article>
+        </section>
+
+        <section id="estudiantes" class="content fade-in">
+            <h2>Nuestros Estudiantes</h2>
+            <div class="student-stats">
+                <div class="stat">
+                    <h3><span class="counter" data-target="200">0</span></h3>
+                    <p>Estudiantes en Párvulo</p>
+                </div>
+                <div class="stat">
+                    <h3><span class="counter" data-target="500">0</span></h3>
+                    <p>Estudiantes en Primaria</p>
+                </div>
+                <div class="stat">
+                    <h3><span class="counter" data-target="800">0</span></h3>
+                    <p>Estudiantes en Secundaria</p>
+                </div>
+                <div class="stat">
+                    <h3><span class="counter" data-target="5000">0</span></h3>
+                    <p>Total de Graduados</p>
+                </div>
+            </div>
+           
+        </section>
+
+        <section>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d984.6511997866297!2d-75.37124404415052!3d9.190074625174828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e596b531785ac6d%3A0x13b077db0e334db2!2sInstituci%C3%B3n%20Educativa%20Millan%20Vargas!5e0!3m2!1ses-419!2sco!4v1739806919447!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+    </main>
+
+    
+    <footer>
+        <p>&copy; 2025 Sistema Educativo. Todos los derechos reservados.</p>
+    </footer>
+    <script src="/js/carrusel.js"></script>
+    <script src="/js/conteo.js"></script>
+</body>
+</html>

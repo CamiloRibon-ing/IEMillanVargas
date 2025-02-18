@@ -1,0 +1,86 @@
+/* Colores principales */
+:root {
+    --primary-blue: #0057B7;
+    --primary-red: #D70000;
+    --white: #FFFFFF;
+    --light-gray: #F4F4F4;
+    --dark-gray: #333;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: var(--light-gray);
+    text-align: center;
+    color: var(--dark-gray);
+}
+h1 {
+    background: var(--primary-blue);
+    color: var(--white);
+    padding: 20px 0;
+    margin: 0;
+}
+.group {
+    margin: 30px 0;
+}
+.group h2 {
+    color: var(--primary-red);
+    border-bottom: 3px solid var(--primary-red);
+    display: inline-block;
+    padding-bottom: 5px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.card {
+    background: var(--white);
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-top: 5px solid var(--primary-red);
+    border-bottom: 5px solid var(--primary-blue);
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+.card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--primary-blue);
+}
+.name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+.role {
+    color: var(--primary-red);
+    font-size: 14px;
+    font-weight: bold;
+}
+.contact {
+    margin-top: 10px;
+    font-size: 14px;
+}
+.contact a {
+    display: block;
+    text-decoration: none;
+    color: var(--primary-blue);
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.contact a:hover {
+    color: var(--primary-red);
+    text-decoration: underline;
+}

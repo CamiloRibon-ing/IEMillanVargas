@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Docentes y Personal</title>
     
-    <link rel="stylesheet" href="/css/staff.css">
+    <link rel="stylesheet" href="/css/directivas.css">
     <link rel="icon" href="/images/logo.jpg">
 </head>
 <body>
@@ -20,24 +20,24 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <section id="staff">
-            <h1>Docentes y Personal</h1>
-            <div class="course-buttons">
-                <button class="course-btn" data-course="prejardin1">Prejardín 1 Mañana</button>
-                <button class="course-btn" data-course="jardin1">Jardín 1 Mañana</button>
-                <button class="course-btn" data-course="jardin2">Jardín 2 Mañana</button>
-                <!-- Agrega más botones para cada curso -->
-            </div>
-            <div id="teacher-info" class="teacher-info">
-                <!-- La información de los docentes se cargará aquí dinámicamente -->
-            </div>
-        </section>
-    </main>
+    <h1>Nuestro Equipo</h1>
+
+    <div class="group">
+        <h2>Directiva</h2>
+        <div class="container" id="directivaContainer"></div>
+    </div>
+
+    <div class="group">
+        <h2>Docentes
+        </h2>
+        <div class="container" id="empleadosContainer"></div>
+    </div>
+
+    <script src="/js/directivas.js"></script>
+
     <footer>
         <p>&copy; 2025 Sistema Educativo. Todos los derechos reservados.</p>
     </footer>
-    <script src="/js/staff.js"></script>
 </body>
 </html>
 </body>

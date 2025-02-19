@@ -6,6 +6,7 @@
     <title>Sistema Educativo</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="html/menu.html">
+    
 
     <link rel="icon" href="images/logo.jpg">
 </head>
@@ -24,10 +25,10 @@
                 
             </ul>
             <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="html/about.html">Sobre Nosotros</a></li>
-                <li><a href="html/mision-vision.html">Misión y Visión</a></li>
-                <li><a href="html/staff.html">Docentes y Personal</a></li></li>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./html/about.html">Sobre Nosotros</a></li>
+                <li><a href="./html/mision-vision.html">Misión y Visión</a></li>
+                <li><a href="./html/staff.html">Docentes y Personal</a></li></li>
             </ul>
         </nav>
     </section>
@@ -110,10 +111,100 @@
 
     </main>
 
+    <!-- Carrusel de Directivas -->
+<section class="directivas-section">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <h2>Directivas del Colegio</h2>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" s>
+                <img src="images/OIP (2).jpeg" alt="Directiva 1">
+                <p>Rector Academico</p>
+            </div>
+            <div class="swiper-slide">
+                <img src="images/tt.jpeg" alt="Directiva 2">
+                <p>Coordinador Academico</p>
+            </div>
+
+            <div class="swiper-slide">
+                <img src="images/istockphoto-473813650-612x612.jpg" alt="Directiva 2">
+                <p>Coordinador/a Disciplina</p>
+            </div>
+
+            <div class="swiper-slide">
+                <img src="images/tt.jpeg" alt="Directiva 2">
+                <p>Coordinador Academico</p>
+            </div>
+
+
+            <!-- Agrega más slides según sea necesario -->
+        </div>
+        <!-- Botones de navegación -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+</section>
+
+<!-- Carrusel de Empresas Asociadas -->
+<section class="empresas-section">
+    <h2>Empresas Asociadas</h2>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="images/blob.jpeg" alt="Empresa 1">
+                <p>Alcaldia de Sampues</p>
+            </div>
+            <div class="swiper-slide">
+                <img src="images/577-5772343_icontec-img-iso-9001-hd-png-download.png" alt="Empresa 2">
+                <p>Icontec</p>
+            </div>
+            <div class="swiper-slide">
+                <img src="images/descargar.jpeg" alt="Empresa 3">
+                <p>Servicion Nacional de Aprendizaje Sena</p>
+            </div>
+
+            <div class="swiper-slide">
+                <img src="images/90830.png" alt="Empresa 2">
+                <p>Empresa 2</p>
+            </div>
+            <!-- Agrega más slides según sea necesario -->
+        </div>
+        <!-- Botones de navegación -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+</section>
+
     
     <footer>
         <p>&copy; 2025 Sistema Educativo. Todos los derechos reservados.</p>
     </footer>
+    <script>
+        // Inicializar Swiper para Directivas
+        const swiperDirectivas = new Swiper('.directivas-section .swiper-container', {
+            loop: true,
+            navigation: {
+                nextEl: '.directivas-section .swiper-button-next',
+                prevEl: '.directivas-section .swiper-button-prev',
+            },
+            autoplay: {
+                delay: 3000,
+            },
+        });
+    
+        // Inicializar Swiper para Empresas
+        const swiperEmpresas = new Swiper('.empresas-section .swiper-container', {
+            loop: true,
+            navigation: {
+                nextEl: '.empresas-section .swiper-button-next',
+                prevEl: '.empresas-section .swiper-button-prev',
+            },
+            autoplay: {
+                delay: 3000,
+            },
+        });
+    </script>
     <script src="js/carrusel.js"></script>
     <script src="js/conteo.js"></script>
 </body>

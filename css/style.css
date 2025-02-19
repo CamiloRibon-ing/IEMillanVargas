@@ -1,6 +1,6 @@
 :root {
     --primary-color: #0057b8;
-    --secondary-color: #003366;
+    --secondary-color: #F93827;
     --highlight-color: #FFD700;
 }
 
@@ -255,4 +255,56 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+
+.empresas-section{
+
+    background-color: #F93827;
+}
+
+.directivas-section{
+
+    background-color: #F93827;
+}
+.swiper-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+.swiper-slide {
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.swiper-slide img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.swiper-slide p {
+    padding: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 50%;
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+    margin: 20px 0;
 }

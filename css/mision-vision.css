@@ -15,7 +15,7 @@
 
 /* Fondo y tipografía básica */
 body {
-    background-image: url('/images/Catedral_de_vida_Foto._SPARTACO_MINERVINI_VERGARA.jpg');
+    background-image: url('../images/Catedral_de_vida_Foto._SPARTACO_MINERVINI_VERGARA.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
